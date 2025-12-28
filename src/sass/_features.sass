@@ -1,0 +1,20 @@
+.features
+  grid-column: center-start / center-end
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr))
+  grid-gap: 3rem 4rem
+  padding: 15rem 0
+  align-items: flex-start
+
+  &__icon
+    width: 4.5rem
+    height: 4.5rem
+    grid-row: 1 / span 2
+  &__card
+    display: grid
+    grid-template-columns: min-content 1fr
+    grid-gap: 1.5rem 2.5rem
+  &__text
+    font-weight: 400
+    font-size: 1.6rem
+    color: $color-green-dark 
